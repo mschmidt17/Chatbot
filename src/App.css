@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 12%;
+  margin-right: 18%;
+}
+
+.chatbotLanding {
+  position: fixed;
+  width: 275px;
+  top: 20%;
+  left: 30%;
+  z-index: 50;
+}
+
+.cajaBoton {
+  background-color: rgb(224, 220, 220);
+  position: fixed;
+  top: 50%;
+  left: 30%;
+  border: solid rgb(44, 44, 44) 3px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.426);
+  border-radius: 120px;
+  padding: 0 2% 2% 1%;
+  cursor: pointer;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cajaBoton:hover {
+  background-color: rgba(0, 0, 0, 0.883);
+}
+
+.cajaActivada {
+  transition: 0.4s;
+  background-color: rgba(0, 0, 0, 0.945);
+  padding: 0.5%;
   color: white;
+  position: fixed;
+  font-size: smaller;
+  width: 20px;
+  top: 23%;
+  z-index: 99;
+  left: 44%;  
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.cajaActivada:hover {
+ background-color: #1A89EF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

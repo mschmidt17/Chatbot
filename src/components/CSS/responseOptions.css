@@ -1,0 +1,17 @@
+.learning {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 6px 0;
+    padding: 8px;
+    width: 80%;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    background-color: #1A89EF;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px rgba(150, 149, 149, 0.925);
+    border: none;
+
+}
+
