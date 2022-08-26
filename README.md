@@ -14,3 +14,6 @@ Para probarlo:
 3. En la consola: 'npm start'
 
 <br></br>
+
+https://user-images.githubusercontent.com/99290382/186795904-00871511-4144-4589-ae65-3205f3845894.mp4
+
