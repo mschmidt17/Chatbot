@@ -5,7 +5,7 @@ import config from './components/Config.js';
 import MessageParser from './components/MessageParser';
 import ActionProvider from './components/ActionProvider.js';
 import { useState } from "react";
-import gif from './giphy.webp' 
+import gif from './components/Imagenes/giphy.webp' 
 
 
 
